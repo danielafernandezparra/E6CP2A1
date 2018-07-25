@@ -1,7 +1,13 @@
-# Dado el siguiente string y caracter, crear un método que reciba como parámetro el string
+# Dado el siguiente string y caracter, crear un metodo que reciba como parametro el string
 # y el caracter. Luego debe buscar si existe ese caracter dentro del string.
-# hint: El método .include? de un string busca si un caracter
-# o string dado está contenido en éste.
+# hint: El metodo .include? de un string busca si un caracter
+# o string dado esta contenido en este.
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+def exist? (cad, car)
+  cad.include? (car)
+end
+
+puts exist?(cadena, caracter)
